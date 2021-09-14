@@ -1,4 +1,4 @@
-name: Build & Publish Dular Proxy
+name: Build & Publish
 
 on:
   release:
