@@ -1,6 +1,4 @@
 #!/bin/bash
-
-# Start squid
 set -e
 
 create_log_dir() {
@@ -17,8 +15,8 @@ create_cache_dir() {
 create_log_dir
 create_cache_dir
 
-# Initialize cache folder
-exec $(which squid) -N -f /etc/squid/squid.conf -z
+if [[ ! -d ${SQUID_CACHE_DIR}/00 ]]; then
+  $(which squid) -N -f /etc/squid/squid.conf -z
+fi
 
-# Start squid server
 exec $(which squid) -f /etc/squid/squid.conf -NYCd 1
