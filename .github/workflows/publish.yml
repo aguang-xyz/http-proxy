@@ -31,4 +31,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/${{ github.repository }}/dular-proxy:${{ github.event.release.tag_name }}
+          tags: ghcr.io/dular-xyz/dular-proxy:${{ github.event.release.tag_name }}
