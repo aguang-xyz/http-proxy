@@ -5,7 +5,7 @@ ENV SQUID_VERSION=3.5.27 \
     SQUID_LOG_DIR=/var/log/squid \
     SQUID_USER=proxy
 
-RUN apt-get update && apt-get install -y squid=${SQUID_VERSION}* sshpass
+RUN apt-get update && apt-get install -y squid=${SQUID_VERSION}*
 
 COPY entrypoint.sh /sbin/entrypoint.sh
 RUN chmod 755 /sbin/entrypoint.sh
