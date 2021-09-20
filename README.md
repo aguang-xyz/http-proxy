@@ -1,4 +1,4 @@
-# Dular Proxy
+# HTTP Proxy
 
 [![Build & Publish Dular Proxy](https://github.com/dular-xyz/dular-proxy/actions/workflows/publish.yml/badge.svg)](https://github.com/dular-xyz/dular-proxy/actions/workflows/publish.yml)
 
