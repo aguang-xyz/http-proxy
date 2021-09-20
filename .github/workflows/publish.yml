@@ -23,7 +23,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.GH_PACKAGES_TOKEN }}
+          password: ${{ secrets.HTTP_PROXY_PUBLISH_TOKEN }}
 
       - name: Build container image
         uses: docker/build-push-action@v2
