@@ -1,8 +1,8 @@
 # HTTP Proxy
 
-[![Build & Publish Dular Proxy](https://github.com/dular-xyz/dular-proxy/actions/workflows/publish.yml/badge.svg)](https://github.com/dular-xyz/dular-proxy/actions/workflows/publish.yml)
+[![Build & Publish Dular Proxy](https://github.com/aguang-xyz/http-proxy/actions/workflows/publish.yml/badge.svg)](https://github.com/aguang-xyz/http-proxy/actions/workflows/publish.yml)
 
-HTTP Proxy Server based [Squid](https://ubuntu.com/server/docs/proxy-servers-squid).
+HTTP Proxy Server based on [Squid](https://ubuntu.com/server/docs/proxy-servers-squid).
 
 ## Usage
 
